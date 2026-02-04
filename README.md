@@ -33,13 +33,13 @@ The script creates a malicious file at `/tmp/facts/root.rb` that exploits Facter
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/facter-privesc-exploit.git
+git clone https://github.com/ch3m1cl/Facter-PrivEsc
 
 # Enter the directory
-cd facter-privesc-exploit
+cd Facter-PrivEsc
 
 # Give execution permissions
-chmod +x facter-privesc.sh
+chmod +x facter.sh
 
 # Run the script
-./facter-privesc.sh
+./facter.sh
